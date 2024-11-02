@@ -27,37 +27,38 @@ jobs:
     name: Setup Upptime
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 1. Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Update template
-        uses: upptime/uptime-monitor@v1.38.0
+      - name: 2. Update template
+        uses: hst1189/uptime-monitor@master
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-      - name: Update response time
-        uses: upptime/uptime-monitor@v1.38.0
+      - name: 3. Update response time
+        uses: hst1189/uptime-monitor@master
         with:
           command: "response-time"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
-      - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.38.0
+      - name: 4. Update summary in README
+        uses: hst1189/uptime-monitor@master
         with:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-      - name: Generate graphs
-        uses: benc-uk/workflow-dispatch@v1
+      - name: 5. Generate graphs
+        uses: hst1189/uptime-monitor@master
         with:
-          workflow: Graphs CI
-          token: ${{ secrets.GH_PAT || github.token }}
-      - name: Generate site
-        uses: upptime/uptime-monitor@v1.38.0
+          command: "graphs"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+      - name: 6. Generate site
+        uses: hst1189/uptime-monitor@master
         with:
           command: "site"
         env:
@@ -69,4 +70,4 @@ jobs:
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
           user_name: "Upptime Bot"
-          user_email: "73812536+upptime-bot@users.noreply.github.com"
+          user_email: "bot@unoreply.github.com"
