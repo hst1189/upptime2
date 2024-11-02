@@ -34,14 +34,14 @@ jobs:
           token: ${{ secrets.GH_PAT || github.token }}
       
       - name: 2. Update template
-        uses: hst1189/uptime-monitor@v1.0
+        uses: hst1189/uptime-monitor@master
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
       
       - name: 3. Update response time
-        uses: hst1189/uptime-monitor@v1.0
+        uses: hst1189/uptime-monitor@master
         with:
           command: "response-time"
         env:
@@ -49,21 +49,21 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
       
       - name: 4. Update summary in README
-        uses: hst1189/uptime-monitor@v1.0
+        uses: hst1189/uptime-monitor@master
         with:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
 
       - name: 5. Generate graphs
-        uses: hst1189/uptime-monitor@v1.0
+        uses: hst1189/uptime-monitor@master
         with:
           command: "graphs"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
 
       - name: 6. Generate site
-        uses: hst1189/uptime-monitor@v1.0
+        uses: hst1189/uptime-monitor@master
         with:
           command: "site"
         env:
