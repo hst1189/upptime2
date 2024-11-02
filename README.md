@@ -30,7 +30,7 @@ you can get your own unlimited and free uptime monitor and status page, powered 
 
 ## 📄 Setting
 
-[参考设定](setting.md)
+[参考设定](Setting.md)
 
 ## 📄 License
 
