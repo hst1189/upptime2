@@ -1,6 +1,6 @@
-# [📈 实时状态](https://hst1189.github.io/upptime): <！ -实时状态- > **所有系统都可以正常运行**
+# ![]() Upptime
 
-This repository contains the open-source uptime monitor and status page for [hst1189](https://hst1189.github.io/upptime), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page | powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/hst1189/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/hst1189/upptime/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/hst1189/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/hst1189/upptime/actions?query=workflow%3A%22Response+Time+CI%22)
