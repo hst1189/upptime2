@@ -1,36 +1,118 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: hst1189 # GitHub username
+repo: upptime  # GitHub repository name
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: 小饅頭の部屋 ー 博客
+    url: https://www.grapehut.us.kg/
+    icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: 小饅頭の部屋 ー RSS收藏
+    url: https://www.grapehut.us.kg/gmerss/
+    icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: 小饅頭の部屋 ー 网站聚合导航
+    url: https://www.grapehut.us.kg/webstack/
+    icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: live2d看板娘
+    url: https://www.grapehut.us.kg/live2d-widget/
+    icon: https://www.grapehut.us.kg/live2d-widget/avatar.png
+    
+  - name: miraitech-chiyoda.com
+    url: https://miraitech-chiyoda.com/
+    icon: https://miraitech-chiyoda.com/img/favicon.ico
+  
+    
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Add your custom domain name, or baseUrl
+  baseUrl: /upptime
+  
+  name: Upptime    # Status website title
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg  # Status website logo
+  introTitle: 
+  introMessage:
+  theme: light
+  
   navbar:
-    - title: Status
+    - title: Home
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+
+
+i18n:
+  activeIncidents: 活动事件
+  allSystemsOperational: 所有系统都可以正常运行
+  incidentReport: "事件 #NUMBER 报告 →"
+  activeIncidentSummary: 在DATE 打开，有 POSTS 个帖子
+  incidentTitle: 事件NUMBER 的详细信息
+  incidentDetails: 事件详细信息
+  incidentFixed: 已修复
+  incidentOngoing: 正在进行
+  incidentOpenedAt: 开始于
+  incidentClosedAt: 结束于
+  incidentSubscribe: 订阅更新
+  incidentViewOnGitHub: 在 GitHub 上查看
+  incidentCommentSummary: 由 AUTHOR 在DATE 发布
+  incidentBack: ← 返回所有事件
+  pastIncidents: 过去的事件
+  pastIncidentsResolved: POSTS 个问题在MINUTES 分钟内得到解决
+  liveStatus: 实时状态
+  overallUptime: 总体正常运行时间
+  overallUptimeTitle: 总体正常运行时间
+  averageResponseTime: 平均响应时间(ms)
+  averageResponseTimeTitle: 平均响应时间(ms)
+  sevelDayResponseTime: 7天响应时间
+  responseTimeMs: 响应时间（ms）
+  ms: ms
+  loading: loading
+  navGitHub: GitHub
+  footer: Copyright © 2024 小饅頭の部屋 All Rights Reserved.
+  rateLimitExceededTitle: 超出速率限制
+  rateLimitExceededIntro: 您已超过一小时内可以执行的请求数，因此您必须等待才能再次访问此网站。或者，您可以添加 GitHub 个人访问令牌以继续使用本网站。
+  rateLimitExceededWhatDoesErrorMean: 这个错误是什么意思？本网站使用 GitHub API 访问有关我们网站状态的实时数据。默认情况下，GitHub 允许每个 IP 地址每小时 60 个请求，您已经消耗了这些请求。
+  rateLimitExceededErrorHowCanFix: 我该如何解决？
+  rateLimitExceededErrorFix: 您可以再等一个小时，您的 IP 地址限制将恢复。或者，您可以添加您的 GitHub 个人访问令牌，这将为您提供每小时额外 5,000 个请求。
+  rateLimitExceededGeneratePAT: 了解如何生成个人访问令牌。
+  rateLimitExceededHasSet: 您有一个个人访问令牌集。
+  rateLimitExceededRemoveToken: 删除令牌
+  rateLimitExceededGitHubPAT: GitHub 个人访问令牌
+  rateLimitExceededCopyPastePAT: 复制并粘贴您的令牌
+  rateLimitExceededSaveToken: 保存令牌
+  errorTitle: 发生错误
+  errorIntro: 尝试获取最新状态详细信息时出错
+  errorText: 您可以稍后再试
+  errorHome: 转到主页
+  pastScheduledMaintenance: 过去的预定维护
+  scheduledMaintenance: 定期维护
+  scheduledMaintenanceSummaryStarted: 从 DATE 开始，持续DURATION 分钟
+  scheduledMaintenanceSummaryStarts: 从 DATE 开始，持续DURATION 分钟
+  startedAt: 开始在
+  startsAt: 开始于
+  duration: 持续时间
+  durationMin: $DURATION 分钟
+  incidentCompleted: 已完成
+  incidentScheduled: 已预定
+  url: 网站
+  status: 状态
+  history: 记录
+  responseTime: 响应时间
+  uptime: 正常运行率
+  up: "🟩 正常"
+  degraded: "🟨 延时"
+  down: "🟥 宕机"
+  responseTimeGraphAlt: "响应时间图像"
+  responseTimeDay: "24小时响应时间"
+  responseTimeWeek: "7天正常运行时间"
+  responseTimeMonth: "30天的正常运行时间"
+  responseTimeYear: "1年的正常运行时间"
+  uptimeDay: "24小时正常运行时间"
+  uptimeWeek: "7天正常运行时间"
+  uptimeMonth: "30天的正常运行时间"
+  uptimeYear: "1年的正常运行时间"
+  liveStatusHtmlComment: "<！ -实时状态- >"
+  degradedPerformance: "🟨 延时严重"
+  partialOutage: "🟧 部分宕机"
+  completeOutage: "🟥 全部宕机"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
