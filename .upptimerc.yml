@@ -1,6 +1,14 @@
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
+
 # Change these first
 owner: hst1189 # GitHub username
 repo: upptime  # GitHub repository name
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+#skipHomepageUpdate: true
+
 
 sites:
   - name: www.grapehut.us.kg
@@ -37,7 +45,6 @@ status-website:
   navbar:
     - title: Home
       href: /
-
 
 i18n:
   activeIncidents: 活动事件
@@ -114,5 +121,5 @@ i18n:
   partialOutage: "🟧 部分宕机"
   completeOutage: "🟥 全部宕机"
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+
+
