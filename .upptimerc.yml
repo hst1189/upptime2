@@ -3,19 +3,19 @@ owner: hst1189 # GitHub username
 repo: upptime  # GitHub repository name
 
 sites:
-  - name: 小饅頭の部屋 ー 博客
+  - name: www.grapehut.us.kg
     url: https://www.grapehut.us.kg/
     icon: https://github.githubassets.com/favicons/favicon.svg
   
-  - name: 小饅頭の部屋 ー RSS收藏
+  - name: www.grapehut.us.kg/gmerss
     url: https://www.grapehut.us.kg/gmerss/
     icon: https://github.githubassets.com/favicons/favicon.svg
   
-  - name: 小饅頭の部屋 ー 网站聚合导航
+  - name: www.grapehut.us.kg/webstack
     url: https://www.grapehut.us.kg/webstack/
     icon: https://github.githubassets.com/favicons/favicon.svg
   
-  - name: live2d看板娘
+  - name: www.grapehut.us.kg/live2d-widget
     url: https://www.grapehut.us.kg/live2d-widget/
     icon: https://www.grapehut.us.kg/live2d-widget/avatar.png
     
