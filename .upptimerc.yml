@@ -11,9 +11,25 @@ skipTopicsUpdate: true
 
 
 sites:
-  - name: google
-    url: https://www.google.com/
+  - name: www.grapehut.us.kg
+    url: https://www.grapehut.us.kg/
     icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: www.grapehut.us.kg/gmerss
+    url: https://www.grapehut.us.kg/gmerss/
+    icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: www.grapehut.us.kg/webstack
+    url: https://www.grapehut.us.kg/webstack/
+    icon: https://github.githubassets.com/favicons/favicon.svg
+  
+  - name: www.grapehut.us.kg/live2d-widget
+    url: https://www.grapehut.us.kg/live2d-widget/
+    icon: https://www.grapehut.us.kg/live2d-widget/avatar.png
+    
+  - name: miraitech-chiyoda.com
+    url: https://miraitech-chiyoda.com/
+    icon: https://miraitech-chiyoda.com/img/favicon.ico
   
     
 status-website:
