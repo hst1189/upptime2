@@ -250,10 +250,10 @@ You can select one of many themes available to customize your status website:
 ```
 status-website:
   theme: light
-Available themes are light, dark, night or ocean.
 ```
+Available themes are `light`, `dark`, `night` or `ocean`.
 
-You can also write your own custom theme by creating a CSS file in the assets/ directory of your Upptime repository. For example, if you create a file `assets/my-custom-theme.css`, you can use CSS variables to style your theme. To see a list of all available variables, see the `dark.css` theme:
+You can also write your own custom theme by creating a CSS file in the `assets/` directory of your Upptime repository. For example, if you create a file `assets/my-custom-theme.css`, you can use CSS variables to style your theme. To see a list of all available variables, see the `dark.css` theme:
 ```
 :root {
   --body-background-color: #001716;
@@ -401,7 +401,7 @@ You can, for example, change the footer copyright text by changing the internati
 
 Similarly, you can also localize the README.md file by adding these to the same i18n.yml file: List of README.md strings.
 
-### Repository metadata
+## Repository metadata
 If you've just set up your new repository and don't have repository metadata (like description, topics, and homepage), Upptime will update that for you. It will update the metadata as follows:
 ```
 Description: "📈 Uptime monitor and status page for $TITLE, powered by @upptime", where $TITLE is the name of your GitHub organization or user
@@ -416,7 +416,7 @@ skipHomepageUpdate: true
 ```
 
 
-### Git commit options
+## Git commit options
 Upptime commits to git history to keep a track of response times, and also commits graphs and README updates. You can change the commit messages for each of these actions:
 ```
 commitMessages:
@@ -432,7 +432,7 @@ commitMessages:
   commitAuthorEmail: "upptime@koj.co"
 ```
 
-### CI schedule
+## CI schedule
 You can customize the schedule when Uptime workflows run by adding the workflowSchedule key in your configuration file. The syntax followed is that of cron. The default values are like so:
 
 Keep in mind that a scheduled GitHub Action cannot run faster than every 5 minutes.
@@ -447,7 +447,7 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 ```
 
-### Self-hosted runners
+## Self-hosted runners
 As of now, the workflows CANNOT run on windows runner.
 
 You may want to use a self-hosted runner instead of the publicly available GitHub runners in your project for more accurate uptime monitoring (ensuring scheduled workflows run on time) or to save build minutes. You can specify your self-hosted runner like so:
@@ -455,7 +455,7 @@ You may want to use a self-hosted runner instead of the publicly available GitHu
 runner: "[self-hosted, linux, ARM64]"
 ```
 
-### User agent
+## User agent
 Requests made to the GitHub API must include a valid User-Agent header (see User Agent required). It is recommended to use your GitHub username here:
 ```
 user-agent: your-github-username
