@@ -11,7 +11,7 @@ workflowSchedule:
      ⊥ Generate graphs
      ⊥ Generate site
 
-  update-template.yml: "0 0 * * *"    #                                              ，参照hst1189/uptime-monitor@master
+  update-template.yml: "0 0 * * *"    # Removed template file,　Removed old data from api,graphs,history ，参照hst1189/uptime-monitor@master
   response-time.yml: "0 0 * * *"      # update response time                         ，参照hst1189/uptime-monitor@master
   summary.yml: "0 0 * * *"            # update readme.md                             ，参照hst1189/uptime-monitor@master
   graphs.yml: "0 0 * * *"             # generate graphs                              ，参照hst1189/uptime-monitor@master
