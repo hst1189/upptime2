@@ -63,6 +63,9 @@ status-website:
     - src: https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js
     - src: https://cdn.jsdelivr.net/gh/hst1189/live2d-widget/autoload.js
       async: true
+      
+  css: "body {background-image: url("home-bg.jpg")}"
+
 
 # 40 - 81 Line : WebSite
 # 82 - 104 Line : Readme.md
