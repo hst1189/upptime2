@@ -1,5 +1,4 @@
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Upptime also supports notifications, assigning issues, and more.  See https://upptime.js.org/docs/configuration
 
 # Change these first
 owner: hst1189 # GitHub username
@@ -9,7 +8,7 @@ skipDescriptionUpdate: true
 skipTopicsUpdate: true
 #skipHomepageUpdate: true
 
-
+# Add your sites here
 sites:
   - name: www.grapehut.us.kg
     url: https://www.grapehut.us.kg/
