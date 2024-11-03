@@ -34,18 +34,19 @@ sites:
     
 status-website:
   # Add your custom domain name, or baseUrl
-  # baseUrl: /
-  CNAME: www.grapehut.us.kg/upptime
+  baseUrl: /upptime
   
-  name: Upptime    # Status website title
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg  # Status website logo
+  # Status website title
+  name:
+  # Status website logo
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: 
   introMessage:
   theme: light
   
   navbar:
     - title: Home
-      href: /
+      href: /upptime
 
 i18n:
   footer: Copyright © 2024 小饅頭の部屋 All Rights Reserved.
