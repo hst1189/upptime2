@@ -253,7 +253,7 @@ status-website:
 Available themes are light, dark, night or ocean.
 ```
 
-You can also write your own custom theme by creating a CSS file in the assets/ directory of your Upptime repository. For example, if you create a file `/my-custom-theme.css`, you can use CSS variables to style your theme. To see a list of all available variables, see the `dark.css` theme:
+You can also write your own custom theme by creating a CSS file in the assets/ directory of your Upptime repository. For example, if you create a file `assets/my-custom-theme.css`, you can use CSS variables to style your theme. To see a list of all available variables, see the `dark.css` theme:
 ```
 :root {
   --body-background-color: #001716;
