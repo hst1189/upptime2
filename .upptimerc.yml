@@ -34,7 +34,7 @@ sites:
     
 status-website:
   # Add your custom domain name, or baseUrl
-  baseUrl: /upptime
+  baseUrl: /
   
   name: Upptime    # Status website title
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg  # Status website logo
