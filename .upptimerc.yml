@@ -42,7 +42,6 @@ sites:
 
 
 
-
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   # Uncomment the following line if you don't have a custom domain and add your repo name
@@ -59,6 +58,11 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO      
 
+  scripts:
+    - src: https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+    - src: https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js
+    - src: https://cdn.jsdelivr.net/gh/hst1189/live2d-widget/autoload.js
+      async: true
 
 # 40 - 81 Line : WebSite
 # 82 - 104 Line : Readme.md
