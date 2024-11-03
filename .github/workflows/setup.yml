@@ -70,4 +70,4 @@ jobs:
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
           user_name: "Upptime Bot"
-          user_email: "bot@unoreply.github.com"
+          user_email: "bot@noreply.github.com"
