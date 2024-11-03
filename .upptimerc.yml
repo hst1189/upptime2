@@ -61,11 +61,9 @@ status-website:
   scripts:
     - src: https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
     - src: https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js
-    - src: https://cdn.jsdelivr.net/gh/hst1189/live2d-widget/autoload.js
       async: true
 
-  css: "body { opacity: 0.5 }"
-  #css: "body { background-image: url("home-bg.jpg");opacity: 0.5}"
+  css: "body { background-image: url("home-bg.jpg")}"
 
 
 # 40 - 81 Line : WebSite
