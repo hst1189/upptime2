@@ -31,6 +31,10 @@ sites:
   - name: live2d-widget
     url: https://www.grapehut.us.kg/live2d-widget/
     icon: https://www.grapehut.us.kg/live2d-widget/avatar.png
+
+  - name: live2d-cubism3
+    url: https://www.grapehut.us.kg/live2d-cubism3/
+    icon: https://www.grapehut.us.kg/live2d-widget/avatar.png
     
   - name: miraitech
     url: https://miraitech-chiyoda.com/
